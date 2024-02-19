@@ -137,7 +137,10 @@ export default function Sidebar({
                                         <div
                                           className="pt-4 cursor-pointer"
                                           key={item.name}
-                                          onClick={() => router.push(item.url)}
+                                          onClick={() => {
+                                            setOpen(false);
+                                            router.push(item.url);
+                                          }}
                                         >
                                           {item.name}
                                         </div>

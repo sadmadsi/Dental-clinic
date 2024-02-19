@@ -1,9 +1,9 @@
 export const Sample = () => {
   return (
-    <div className="flex">
-      <img src="/smile3.png" className="grow" alt="smile" />
-      <img src="/smile2.png" className="grow" alt="smile" />
-      <img src="/smile1.png" className="grow" alt="smile" />
+    <div className="flex h-[283px]">
+      <div className="grow bg-[url(/smile1.png)] bg-cover bg-no-repeat bg-center" />
+      <div className="grow bg-[url(/smile2.png)] bg-cover bg-no-repeat bg-center" />
+      <div className="grow bg-[url(/smile3.png)] bg-cover bg-no-repeat bg-center" />
     </div>
   );
 };
