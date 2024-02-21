@@ -20,10 +20,6 @@ export const Insurances = () => {
       hover: "/insurance/hover-mellat.svg",
     },
     {
-      icon: "/insurance/iran.svg",
-      hover: "/insurance/hover-iran.svg",
-    },
-    {
       icon: "/insurance/alborz.svg",
       hover: "/insurance/hover-alborz.svg",
     },
